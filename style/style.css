@@ -1,0 +1,47 @@
+
+.container{
+    background-color:#290729;
+    height: 350px;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+#inputfield{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color:#f3f1ed;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font: 2rem;
+    margin-bottom: 10px;
+
+}
+button{
+    width: 100px;
+    background-color: #bbb1a7;
+    border-radius: 15px;
+    padding: 9px;
+
+
+
+}
+#h1{
+    color: 
+}
+
+.container h1 {
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+    margin-left: 5%;
+    
+}
+
+.all{
+justify-self: center;
+padding-top: 300px;
+padding-left: 100px;
+}

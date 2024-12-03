@@ -1,0 +1,26 @@
+// INitialising Variables
+
+// function Creation 
+function calculateBanknote(amount){
+    const bankNotes = [10000, 5000, 2000, 1000, 500 ,100]
+    const result = {}
+    let i = 0
+    while (amount > 0 && i < bankNotes.length){
+        let denom = bankNotes[i]
+        if(amount > denom){
+            //devide and round down amount by denom
+            let ans = Math.floor(amount / denom)
+            //update result
+            result[denom] = ans
+            //calculating the remainder
+            amount = amount % denom
+        }
+        //keep looping the values of banknotes
+        i++
+    }
+    return result;
+}
+// function call
+const output = calculateBanknote(23700)
+// display output
+console.log(output)
